@@ -67,7 +67,7 @@ ent.place(x=100,y=80)
 
 ttk.Button(win,text="Browse",command=browse,style = 'W.TButton').place(x=470,y=78)
 
-Button(win,text="Extract",command=extract,width=9,font="bahnschrift 15",border=10,foreground="white",bg="green",activebackground='blue').place(x=230,y=130)
+Button(win,text="Extract",command=extract,width=9,font="bahnschrift 15",border=10,foreground="white",bg="green",activebackground='#212121').place(x=230,y=130)
 
 l = Label(win,bg="#212121",font="bahnschrift 10")
 l.place(x=380,y=145)
